@@ -1,13 +1,9 @@
 # AWS CLI Cheat Sheet
 
 + Configuring the AWS cli environment (using IAM roles and access/secret keys):
-
   `aws configure`
-
 + Configure a profile for additional AWS IAM account:
-
   `aws configure --profile [profile_name]`
-
 + Create a new S3 bucket:
 `aws s3 mb <BucketName>`
 + Remove S3 bucket:
