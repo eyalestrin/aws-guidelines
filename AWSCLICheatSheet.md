@@ -37,6 +37,9 @@
 ## References
 
 + Installing the AWS Command Line Interface
-https://linuxacademy.com/blog/tutorials/installing-the-aws-command-line-interface/
+
+  https://linuxacademy.com/blog/tutorials/installing-the-aws-command-line-interface/
+  
 + 28 Essential AWS S3 CLI Command Examples to Manage Buckets and Objects
-https://www.thegeekstuff.com/2019/04/aws-s3-cli-examples/
+
+  https://www.thegeekstuff.com/2019/04/aws-s3-cli-examples/
