@@ -2,7 +2,7 @@
 
 ## Unused EBS Volumes
 
-1.  Login to the AWS Management Console
+1. Login to the AWS Management Console
 
    https://console.aws.amazon.com/ec2/
 
