@@ -31,6 +31,7 @@
 8. Run the commands below to update to the latest AWS PowerShell module:
 
    `Update-Module -Name AWS.Tools.Common -Force`
+   
    `Update-Module -Name AWS.Tools.Installer -Force`
 
 9. To view the installed versions of AWS PowerShell module, run the command below:
@@ -68,6 +69,7 @@
 8. Run the commands below to update to the latest AWS PowerShell module:
 
    `Update-Module -Name AWS.Tools.Common -Force`
+   
    `Update-Module -Name AWS.Tools.Installer -Force`
 
 9. To view the installed versions of AWS PowerShell module, run the command below:
@@ -83,8 +85,11 @@
 2. Run the command below to register the Ubuntu 18.04 repository:
 
    `wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb`
+   
    `sudo dpkg -i packages-microsoft-prod.deb`
+   
    `sudo apt-get update`
+   
    `sudo add-apt-repository universe`
 
 3. Run the command below to install PowerShell:
@@ -108,9 +113,7 @@
 7. Run the commands below to update to the latest AWS PowerShell module:
 
    `Update-Module -Name AWS.Tools.Common -Force`
-
    
-
    `Update-Module -Name AWS.Tools.Installer -Force`
 
 9. To view the installed versions of AWS PowerShell module, run the command below:
@@ -127,11 +130,7 @@
 
    `wget https://packages.microsoft.com/config/debian/10/packages-microsoft-prod.deb`
 
-   
-
    `sudo dpkg -i packages-microsoft-prod.deb`
-
-   
 
    `sudo apt-get update`
 
@@ -156,8 +155,6 @@
 7. Run the commands below to update to the latest AWS PowerShell module:
 
    `Update-Module -Name AWS.Tools.Common -Force`
-
-   
 
    `Update-Module -Name AWS.Tools.Installer -Force`
 
