@@ -24,7 +24,7 @@
 
 6. Run the commands below to install AWS tools for PowerShell:
 
-   `Install-Module -Name AWS.Tools.Common -Force`
+   `Install-Module -Name AWS.Tools.Common -AllowClobber -Force`
 
    `Install-Module -Name AWS.Tools.Installer -Force`
 
