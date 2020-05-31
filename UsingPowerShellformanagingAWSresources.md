@@ -105,9 +105,12 @@
 
    `Install-Module -Name AWS.Tools.Installer -Force`
 
-8. Run the commands below to update to the latest AWS PowerShell module:
+7. Run the commands below to update to the latest AWS PowerShell module:
 
    `Update-Module -Name AWS.Tools.Common -Force`
+
+   
+
    `Update-Module -Name AWS.Tools.Installer -Force`
 
 9. To view the installed versions of AWS PowerShell module, run the command below:
@@ -123,7 +126,13 @@
 2. Run the command below to register the Debian 10 repository:
 
    `wget https://packages.microsoft.com/config/debian/10/packages-microsoft-prod.deb`
+
+   
+
    `sudo dpkg -i packages-microsoft-prod.deb`
+
+   
+
    `sudo apt-get update`
 
 3. Run the command below to install PowerShell:
@@ -144,9 +153,12 @@
 
    `Install-Module -Name AWS.Tools.Installer -Force`
 
-8. Run the commands below to update to the latest AWS PowerShell module:
+7. Run the commands below to update to the latest AWS PowerShell module:
 
    `Update-Module -Name AWS.Tools.Common -Force`
+
+   
+
    `Update-Module -Name AWS.Tools.Installer -Force`
 
 9. To view the installed versions of AWS PowerShell module, run the command below:
