@@ -23,28 +23,28 @@ This document explains the process of installation, configuration and hardening 
    * Advanced Details -> User data -> paste the following text into the empty field:
 
      `#!/bin/bash
-     sudo su
-     yum update -y
-     yum install httpd mod_ssl -y
-     chown root:root /usr/sbin/apachectl
-     chown root:root /usr/sbin/httpd 
-     chmod 770 /usr/sbin/apachectl
-     chmod 770 /usr/sbin/httpd
-     chown -R root:root /etc/httpd
-     chmod -R go-r /etc/httpd
-     chown -R root:root /etc/httpd/logs
-     chmod -R 700 /etc/httpd/logs
-     amazon-linux-extras install -y lamp-mariadb10.2-php7.2 php7.2
-     mkdir /etc/httpd/sites-available
-     mkdir /etc/httpd/sites-enabled
-     mkdir -p /www
-     chown -R apache:apache /www
-     chmod 2775 /www && find /var/www -type d -exec sudo chmod 2775 {} \;
-     yum install -y mariadb-server
-     systemctl start httpd.service
-     systemctl enable httpd.service
-     systemctl start mariadb
-     systemctl enable mariadb`
+     `sudo su`
+     `yum update -y`
+     `yum install httpd mod_ssl -y`
+     `chown root:root /usr/sbin/apachectl`
+     `chown root:root /usr/sbin/httpd`
+     `chmod 770 /usr/sbin/apachectl`
+     `chmod 770 /usr/sbin/httpd`
+     `chown -R root:root /etc/httpd`
+     `chmod -R go-r /etc/httpd`
+     `chown -R root:root /etc/httpd/logs`
+     `chmod -R 700 /etc/httpd/logs`
+     `amazon-linux-extras install -y lamp-mariadb10.2-php7.2 php7.2`
+     `mkdir /etc/httpd/sites-available`
+     `mkdir /etc/httpd/sites-enabled`
+     `mkdir -p /www`
+     `chown -R apache:apache /www`
+     `chmod 2775 /www && find /var/www -type d -exec sudo chmod 2775 {} \;`
+     `yum install -y mariadb-server`
+     `systemctl start httpd.service`
+     `systemctl enable httpd.service`
+     `systemctl start mariadb`
+     `systemctl enable mariadb`
 
 7. Click Next: Add Storage -> Leave default settings
 8. Click Next: Add Tags
