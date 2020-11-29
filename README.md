@@ -87,3 +87,7 @@
 + Using PowerShell for managing AWS resources
 
   https://github.com/eyalestrin/aws-guidelines/blob/master/UsingPowerShellformanagingAWSresources.md
+
++ WordPress 5.x deployment guide for Arm-based AWS Graviton2 processors
+
+  https://github.com/eyalestrin/aws-guidelines/blob/master/WordPress%205.x%20deployment%20guide%20for%20Arm-based%20AWS%20Graviton2%20processors.md
