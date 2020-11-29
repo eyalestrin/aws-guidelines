@@ -22,7 +22,7 @@ This document explains the process of installation, configuration and hardening 
 
    * Advanced Details -> User data -> paste the following text into the empty field:
 
-     `#!/bin/bash
+     `#!/bin/bash`
      `sudo su`
      `yum update -y`
      `yum install httpd mod_ssl -y`
